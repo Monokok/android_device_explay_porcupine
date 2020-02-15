@@ -13,6 +13,8 @@ $(call inherit-product, device/explay/porcupine/full_porcupine.mk)
 ## Device identifier. This must come after all inclusions
 PRODUCT_MODEL := sQuad7.82_3G
 PRODUCT_BRAND := Explay
-PRODUCT_NAME := cm_ro.sQuad782_3G
+PRODUCT_NAME := cm_sQuad782_3G
 PRODUCT_DEVICE := Tablet
 PRODUCT_MANUFACTURER := MediaTek
+TARGET_SCREEN_HEIGHT := 1024
+TARGET_SCREEN_WIDTH := 768
